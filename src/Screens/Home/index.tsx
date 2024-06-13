@@ -28,7 +28,29 @@ export function Home() {
             <View style={styles.infoDetails}>
                 <Text style={styles.infoDetailsText}>Previsão dos próximos 7 dias</Text>
                 <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
-                    
+                    <View style={styles.infoDetailsCard}>
+                        <Text style={styles.infoDetailsCardWeekDay}>Seg.</Text>
+                        <Sun02d width={40} height={40} />
+                        <Text style={styles.infoDetailsCardPreview}>19°C</Text>
+                    </View>
+
+                    <View style={styles.infoDetailsCard}>
+                        <Text style={styles.infoDetailsCardWeekDay}>Seg.</Text>
+                        <Sun02d width={40} height={40} />
+                        <Text style={styles.infoDetailsCardPreview}>19°C</Text>
+                    </View>
+
+                    <View style={styles.infoDetailsCard}>
+                        <Text style={styles.infoDetailsCardWeekDay}>Seg.</Text>
+                        <Sun02d width={40} height={40} />
+                        <Text style={styles.infoDetailsCardPreview}>19°C</Text>
+                    </View>
+
+                    <View style={styles.infoDetailsCard}>
+                        <Text style={styles.infoDetailsCardWeekDay}>Seg.</Text>
+                        <Sun02d width={40} height={40} />
+                        <Text style={styles.infoDetailsCardPreview}>19°C</Text>
+                    </View>
                 </ScrollView>
             </View>
         </LinearGradient>
