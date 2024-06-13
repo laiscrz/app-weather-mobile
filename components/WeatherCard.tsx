@@ -1,8 +1,8 @@
 import React from 'react';
 import { View, Text } from 'react-native';
-import Sun02d from '../../assets/image/02d.svg';
+import Sun02d from '../assets/image/02d.svg';
 import { styles } from '../styles/index';
-import { WeatherCardProps } from '../@types/weatherTypes'; // Importe a interface WeatherCardProps
+import { WeatherCardProps } from '../@types/weatherTypes';
 
 const WeatherCard: React.FC<WeatherCardProps> = ({ dayOfWeek, temperature }) => {
     return (

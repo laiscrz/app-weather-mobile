@@ -5,7 +5,7 @@ import { styles } from '../../styles/index'
 
 import WeatherCard from '../../components/WeatherCard';
 
-import Sun from '../../../assets/image/01d.svg';
+import Sun from '../../assets/image/01d.svg';
 
 export function Home() {
   return (
