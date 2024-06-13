@@ -1,5 +1,7 @@
 import { LinearGradient } from "expo-linear-gradient";
-import { StyleSheet, Text, View } from "react-native";
+import { BellRinging, CaretDown, MapPin } from "phosphor-react-native";
+import { Text, View } from "react-native";
+import { styles } from '../../styles/home'
 
 export function Home() {
     return (
@@ -8,26 +10,14 @@ export function Home() {
             <View style={styles.content}>
                 <View style={styles.header}>
                     <View style={styles.headerLeft}>
-                        <Text>São Paulo</Text>
+                        <MapPin color="#fff" size={25} />
+                        <Text style={styles.headerLeftText}>São Paulo</Text>
+                        <CaretDown color="#fff" size={25}/>
                     </View>
+                    <BellRinging color="#fff" size={25} />
+
                 </View>
             </View>
         </LinearGradient>
     );
 }
-
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-
-    },
-    content : {
-
-    },
-    header : {
-
-    },
-    headerLeft : {
-
-    }
-})
