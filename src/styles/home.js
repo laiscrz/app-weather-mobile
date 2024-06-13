@@ -8,6 +8,7 @@ export const styles = StyleSheet.create({
     content : {
         paddingTop: 40,
         paddingHorizontal: 35,
+        alignItems: "center"
     },
     header : {
         width: "100%",
@@ -23,5 +24,25 @@ export const styles = StyleSheet.create({
         color: "#fff",
         fontSize: 18,
         fontWeight: 600
-    }
+    },
+    info : {
+        paddingVertical: 70,
+        alignItems: "center",
+        gap: 10,
+    },
+    infoTextUser: {
+        fontSize: 32,
+        fontWeight: "300",
+        color: "#fff"
+    },
+    infoTextClima : {
+        fontSize: 100,
+        fontWeight: "300",
+        color: "#fff"
+    },
+    infoTextMaxMin : {
+        fontSize: 16,
+        fontWeight: "600",
+        color: "#fff"
+    },
 })
