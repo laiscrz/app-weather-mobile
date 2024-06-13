@@ -14,11 +14,11 @@ export function Home() {
       <View style={styles.content}>
         <View style={styles.header}>
           <View style={styles.headerLeft}>
-            <MapPin color="#FFF" size={32} />
+            <MapPin color="#FFF" size={32} style={{ cursor: 'pointer' }} />
             <Text style={styles.headerLeftText}>São Paulo, SP</Text>
-            <CaretDown color="#FFF" size={32} />
+            <CaretDown color="#FFF" size={32} style={{ cursor: 'pointer' }} />
           </View>
-          <BellSimple color="#FFF" size={32} />
+          <BellSimple color="#FFF" size={32} style={{ cursor: 'pointer' }} />
         </View>
         <View style={styles.info}>
           <Sun width={200} height={200} />
