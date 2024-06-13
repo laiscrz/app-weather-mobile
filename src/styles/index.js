@@ -46,6 +46,7 @@ export const styles = StyleSheet.create({
     infoDetails: {
         gap: 15,
         paddingLeft: 40,
+        alignItems: "center"
     },
     infoDetailsText: {
         color: "#FFF",
