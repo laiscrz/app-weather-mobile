@@ -1,9 +1,10 @@
 import { LinearGradient } from "expo-linear-gradient";
-import { BellRinging, CaretDown, MapPin } from "phosphor-react-native";
-import { Text, View } from "react-native";
+import { BellSimple, CaretDown, MapPin } from "phosphor-react-native";
+import { Text, View, ScrollView } from "react-native";
 import { styles } from '../../styles/home'
 
 import Sun from '../../../assets/image/01d.svg'
+import Sun02d from '../../../assets/image/02d.svg'
 
 export function Home() {
     return (
@@ -12,19 +13,23 @@ export function Home() {
             <View style={styles.content}>
                 <View style={styles.header}>
                     <View style={styles.headerLeft}>
-                        <MapPin color="#fff" size={25} />
-                        <Text style={styles.headerLeftText}>São Paulo</Text>
-                        <CaretDown color="#fff" size={25}/>
+                        <MapPin color="#FFF" size={32} />
+                        <Text style={styles.headerLeftText}>Iaciara, GO</Text>
+                        <CaretDown color="#FFF" size={32} />
                     </View>
-                    <BellRinging color="#fff" size={25} />
-
+                    <BellSimple color="#FFF" size={32} />
                 </View>
                 <View style={styles.info}>
-                    <Text style={styles.infoTextUser}>Good Morning, User</Text>
-                    <Sun  width={200} height={200}/>
-                    <Text style={styles.infoTextClima}>21 °C</Text>
-                    <Text style={styles.infoTextMaxMin}>Max.: 31° Min.:25°</Text>
+                    <Sun width={200} height={200} />
+                    <Text style={styles.infoText}>21°C</Text>
+                    <Text style={styles.infoTextMaxMin}>Max.: 31º Min.: 25º</Text>
                 </View>
+            </View>
+            <View style={styles.infoDetails}>
+                <Text style={styles.infoDetailsText}>Previsão dos próximos 7 dias</Text>
+                <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
+                    
+                </ScrollView>
             </View>
         </LinearGradient>
     );

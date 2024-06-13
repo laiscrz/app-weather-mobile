@@ -3,46 +3,53 @@ import { StyleSheet } from 'react-native';
 export const styles = StyleSheet.create({
     container: {
         flex: 1,
-
     },
-    content : {
-        paddingTop: 40,
-        paddingHorizontal: 35,
-        alignItems: "center"
-    },
-    header : {
+    content: { paddingHorizontal: 40 },
+    header: {
         width: "100%",
-        flexDirection: "row",
-        justifyContent: "space-between"
-    },
-    headerLeft : {
+        marginTop: 44,
         flexDirection: "row",
         alignItems: "center",
-        gap: 10
+        justifyContent: "space-between",
     },
-    headerLeftText : {
-        color: "#fff",
-        fontSize: 18,
-        fontWeight: 600
-    },
-    info : {
-        paddingVertical: 70,
+    headerLeft: {
+        flexDirection: "row",
         alignItems: "center",
+        justifyContent: "space-between",
         gap: 10,
     },
-    infoTextUser: {
-        fontSize: 32,
-        fontWeight: "300",
-        color: "#fff"
+    headerLeftText: {
+        color: "#FFF",
+        fontSize: 18,
+        fontWeight: "600",
     },
-    infoTextClima : {
+    info: {
+        paddingVertical: 70,
+        width: "100%",
+        justifyContent: "center",
+        alignItems: "center",
+    },
+    infoImg: {
+        width: 230,
+        height: 230,
+    },
+    infoText: {
         fontSize: 100,
         fontWeight: "300",
-        color: "#fff"
+        color: "#FFF",
     },
-    infoTextMaxMin : {
+    infoTextMaxMin: {
         fontSize: 16,
         fontWeight: "600",
-        color: "#fff"
+        color: "#FFF",
+    },
+    infoDetails: {
+        gap: 15,
+        paddingLeft: 40,
+    },
+    infoDetailsText: {
+        color: "#FFF",
+        fontSize: 22,
+        fontWeight: "300",
     },
 })
