@@ -4,14 +4,12 @@ import { Text, View, ScrollView } from "react-native";
 import { styles } from '../../styles/index'
 
 import WeatherCard from '../../components/WeatherCard';
-import { WeatherCardProps } from '../../@types/weatherTypes';
 
-import Sun from '../../../assets/image/01d.svg'
-import Sun02d from '../../../assets/image/02d.svg'
+import Sun from '../../../assets/image/01d.svg';
 
 export function Home() {
     return (
-        <LinearGradient colors={["#292A4E", "#715C77", "#C75C2E"]}
+        <LinearGradient colors={["#8e91e5", "#6BA8FF"]}
             style={styles.container}>
             <View style={styles.content}>
                 <View style={styles.header}>
