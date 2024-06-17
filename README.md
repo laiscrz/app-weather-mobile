@@ -47,5 +47,7 @@ Siga estas etapas para configurar o projeto em sua máquina local:
     # ou
     yarn start
     ```
+    
+----------------------------------------------------------------------------------------
 
 > Essas etapas irão configurar o ambiente necessário para rodar o aplicativo em sua máquina local. Certifique-se de ter o Node.js e npm ou yarn instalados previamente.
